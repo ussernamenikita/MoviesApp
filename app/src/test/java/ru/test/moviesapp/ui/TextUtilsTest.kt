@@ -3,6 +3,7 @@ package ru.test.moviesapp.ui
 import org.junit.Test
 
 import org.junit.Assert.*
+import ru.test.moviesapp.ui.utils.TextUtils
 
 class TextUtilsTest {
 

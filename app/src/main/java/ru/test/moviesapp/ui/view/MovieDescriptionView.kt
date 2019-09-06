@@ -13,7 +13,7 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import android.view.View
 import ru.test.moviesapp.R
-import ru.test.moviesapp.ui.TextUtils
+import ru.test.moviesapp.ui.utils.TextUtils
 import kotlin.math.ceil
 import kotlin.math.max
 import kotlin.math.min

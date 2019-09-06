@@ -1,4 +1,4 @@
-package ru.test.moviesapp.ui
+package ru.test.moviesapp.ui.utils
 
 class TextUtils {
 
