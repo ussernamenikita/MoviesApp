@@ -1,0 +1,8 @@
+import config.Dependencies
+
+apply from '../baseModule.gradle'
+
+dependencies{
+    implementation(Dependencies.coroutinesCore)
+    implementation(Dependencies.coroutinesAndroid)
+}
