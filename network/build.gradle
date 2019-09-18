@@ -1,8 +1,21 @@
 import config.Dependencies
 
-apply from '../baseModule.gradle'
+apply from: '../baseModule.gradle'
+
+android{
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def movieDbKey = properties.getProperty("movieDbKey")
+    defaultConfig {
+        buildConfigField "string","apiPath", movieDbKey
+        buildConfigField "string","baseUrl", "\"https://api.themoviedb.org/3\""
+    }
+}
 
 dependencies{
     implementation(Dependencies.coroutinesCore)
     implementation(Dependencies.coroutinesAndroid)
+    implementation(Dependencies.viewModelKtx)
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.retrofitGsonConverterFactory)
 }
