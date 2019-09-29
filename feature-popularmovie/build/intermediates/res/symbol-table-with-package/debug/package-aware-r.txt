@@ -1,0 +1,2 @@
+com.movie.app.popular
+string app_name

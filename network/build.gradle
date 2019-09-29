@@ -1,0 +1,19 @@
+import config.Dependencies
+
+apply from: '../baseModule.gradle'
+
+android{
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def movieDbKey = properties.getProperty("movieDbKey")
+    defaultConfig {
+        buildConfigField "String","apiKey", "\"${movieDbKey}\""
+        buildConfigField "String","baseUrl", "\"https://api.themoviedb.org/3\""
+    }
+}
+
+dependencies{
+    implementation project(':domain')
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.retrofitGsonConverterFactory)
+}

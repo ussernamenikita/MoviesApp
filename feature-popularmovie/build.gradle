@@ -1,0 +1,7 @@
+apply from: '../baseFeatureModule.gradle'
+
+dependencies{
+    implementation project(':network')
+    implementation project(':domain')
+    implementation project(':utils')
+}

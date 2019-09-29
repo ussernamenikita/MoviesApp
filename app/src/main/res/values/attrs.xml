@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovieDescriptionView">
+        <attr name="md_text_margin_start" format="dimension"/>
+        <attr name="md_text_margin_end" format="dimension"/>
+        <attr name="md_image" format="reference"/>
+        <attr name="android:fontFamily" format="string|reference"/>
+        <attr name="android:text" format="string"/>
+        <attr name="android:textSize" format="dimension"/>
+        <attr name="android:textColor" format="color"/>
+    </declare-styleable>
+</resources>

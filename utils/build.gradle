@@ -1,0 +1,10 @@
+import config.Dependencies
+
+apply from:'../baseModule.gradle'
+apply plugin:'kotlin-kapt'
+
+dependencies{
+    implementation Dependencies.appcompat
+    implementation Dependencies.dagger
+    kapt Dependencies.daggerCompiler
+}
