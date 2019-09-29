@@ -1,4 +1,0 @@
-C:\android\projects\MoviesApp\feature-popularmovie\src\main\kotlin\com\movie\app\popular\data\PopularMoviesRepositoryImpl.kt
-C:\android\projects\MoviesApp\feature-popularmovie\src\main\kotlin\com\movie\app\popular\di\MainComponent.kt
-C:\android\projects\MoviesApp\feature-popularmovie\src\main\kotlin\com\movie\app\popular\di\MainModule.kt
-C:\android\projects\MoviesApp\feature-popularmovie\src\main\kotlin\com\movie\app\popular\domain\IPopularMoviesRepository.kt

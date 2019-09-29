@@ -1,2 +1,0 @@
-ru.movies.network
-string app_name

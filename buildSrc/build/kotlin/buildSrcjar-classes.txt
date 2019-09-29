@@ -1,1 +1,0 @@
-C:\android\projects\MoviesApp\buildSrc\build\classes\kotlin\main\config\Config.class;C:\android\projects\MoviesApp\buildSrc\build\classes\kotlin\main\config\DepVersions.class;C:\android\projects\MoviesApp\buildSrc\build\classes\kotlin\main\config\Dependencies.class
